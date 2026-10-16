@@ -4,14 +4,14 @@ Proiect individual la disciplina Metode avansate de programare, anul universitar
 
 ## Autor
 
-- **Nume:** [Nume Prenume]
-- **Grupa:** [grupa]
-- **Marca:** [marca]
-- **Tema:** [numarul temei] - [titlul temei]
+- **Nume:** Darva Victor-Marius
+- **Grupa:** anul 3 grupa 1.2
+- **Marca:** LH715243
+- **Tema:** 3 - Catalog de note0
 
 ## Descriere
 
-[Doua-trei propozitii despre ce face aplicatia si ce problema rezolva.]
+Aplicatia este un catalog de note dezvoltat pentru gestionarea studentilor si a notelor obtinute de acestia la diferite discipline. Aceasta permite adaugarea studentilor, inregistrarea notelor pe discipline si generarea automata de rapoarte cu mediile generale si statistici pe materii.
 
 ## Tehnologii
 
@@ -50,4 +50,8 @@ python -m pytest --cov=src
 
 ## Decizii de implementare
 
-[Doua-trei decizii tehnice pe care le-ati luat si motivul fiecareia.]
+Stocarea datelor in memorie: Utilizarea structurilor de date native (liste si dictionare) pentru asigurarea unei viteze ridicate de executie si a simplitatii, respectand cerinta ca starea sa se pastreze exclusiv in memorie.
+
+Rotunjirea mediilor: Implementarea unei logici dedicate de rotunjire la doua zecimale prin rotunjire la jumatate in sus, pentru garantarea preciziei cerute la calculul mediilor.
+
+Gestionarea cazurilor speciale: Tratarea explicita a situatiei studentilor fara note, prin returnarea valorii null in loc de zero pentru medie, conform contractului strict al temei.

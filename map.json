@@ -1,10 +1,10 @@
 {
   "sablon": "map-2026-2027-v1-python",
-  "nume": "[Nume Prenume]",
-  "grupa": "[grupa]",
-  "marca": 0,
-  "email": "[prenume.nume@student.upt.ro]",
-  "tema": 0,
+  "nume": "Dârvă Victor-Marius",
+  "grupa": "anul 3 grupa 1.2",
+  "marca": 715243,
+  "email": "victor-marius.darva@student.upt.ro",
+  "tema": 3,
   "limbaj": "python",
   "extensii": []
 }

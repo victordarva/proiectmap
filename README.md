@@ -50,7 +50,7 @@ python -m pytest --cov=src
 
 ## Decizii de implementare
 
-Stocarea datelor in memorie: Utilizarea structurilor de date native (liste si dictionare) pentru asigurarea unei viteze ridicate de executie si a simplitatii, respectand cerinta ca starea sa se pastreze exclusiv in memorie. 
+Stocarea datelor in memorie: Utilizarea structurilor de date native (liste si dictionare) pentru asigurarea unei viteze ridicate de executie si a simplitatii, respectand cerinta ca starea sa se pastreze exclusiv in memorie.
 
 Rotunjirea mediilor: Implementarea unei logici dedicate de rotunjire la doua zecimale prin rotunjire la jumatate in sus, pentru garantarea preciziei cerute la calculul mediilor.
 
